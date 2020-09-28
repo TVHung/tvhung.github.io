@@ -1,668 +1,282 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
+<head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Trương Văn Hùng</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+	<title>Welcomme to my blog</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/logopersonal2.png">
+    <script type="text/javascript" src="javascript/index.js"></script>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-branch" href="index.html">
+			<img src="./images/logopersonal2.png" height="50">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="technology.html">Technology</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="blogs.html">Blogs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="review-book.html">Review books</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About me</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<div class="container logopersonal">
+	<a href="#" target="_blank">
+		<img class="header-logo" src="images/logopersonal2.png" height="100">
+	</a>
+	<p>A minimalist</p>
+	<a href="https://www.facebook.com/hung.tv99" target="_blank">
+		<img class="header-logo" src="images/facebookColor.png">
+	</a>
+	<a href="https://www.instagram.com/tv_hung_" target="_blank">
+		<img class="header-logo" src="images/instaColor.png">
+	</a>
+	<a href="https://github.com/TVHung" target="_blank">
+		<img class="header-logo" src="images/github2.png">
+	</a>
+</div>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Truong Van Hung</a></h1>
-				<span class="position"><a href="#">Student</a><br>at Hanoi University of Science and Technology</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<!-- <li><a href="#" data-nav-section="services">Services</a></li> -->
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Favorite photos</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
+<div class="container ">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="blog">
+				<p class="title-blog">NHỮNG ĐIỀU MÌNH RÚT RA ĐƯỢC TỪ VIỆC HỌC MỘT NGOẠI NGỮ MỚI Ở TUỔI TRƯỞNG THÀNH</p>
+				<p class="date-writed">Ngày 06/08/2020</p>
+				<div class="img-blog">
+					<img src="images/img (3).jpg" class="img-fluid">
 				</div>
-			</nav>
+				
+				<p>Mở đầu tháng 8 sẽ là một bài viết về chuyện học ngoại ngữ, cụ thể là những điều mình học được/ rút ra được từ việc tự học tiếng Hàn sau một năm. Học một ngoại ngữ mới hoá ra là nó như thế này Trước giờ có rất nhiều bạn hỏi mình học […]</p>
+				<a href="blog_detail.html" class="btn-readmore">Read more</a>
+			</div>
 
-			<div class="colorlib-footer">
-				<ul>
-					<li><a href="https://www.facebook.com/hung.tv99" target="_blank"><i class="icon-facebook2" style="color: blue;"></i></a></li>
-					<li><a href="https://twitter.com/TruongH59458172" target="_blank"><i class="icon-twitter2" style="color: blue;"></i></a></li>
-					<li><a href="https://www.instagram.com/fun_hipu/" target="_blank"><i class="icon-instagram" style="color: blue;"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/hung-truong-2935561a2/" target="_blank"><i class="icon-linkedin2" style="color: blue;"></i></a></li>
+			<div class="row blog-two-column">
+				<div class="blog col-sm-6">
+					<p class="title-blog">NHỮNG ĐIỀU MÌNH RÚT RA ĐƯỢC TỪ VIỆC HỌC MỘT NGOẠI NGỮ MỚI Ở TUỔI TRƯỞNG THÀNH</p>
+					<p class="date-writed">Ngày 06/08/2020</p>
+					<div class="img-blog">
+						<img src="images/img (2).jpg" class="img-fluid">
+					</div>
+					<p>Mở đầu tháng 8 sẽ là một bài viết về chuyện học ngoại ngữ, cụ thể là những điều mình học được/ rút ra được từ việc tự học tiếng Hàn sau một năm. Học một ngoại ngữ mới hoá ra là nó như thế này Trước giờ có rất nhiều bạn hỏi mình học […]</p>
+					<a href="blog_detail.html" class="btn-readmore">Read more</a>
+				</div>
+				<div class="blog col-sm-6">
+					<p class="title-blog">NHỮNG ĐIỀU MÌNH RÚT RA ĐƯỢC TỪ VIỆC HỌC MỘT NGOẠI NGỮ MỚI Ở TUỔI TRƯỞNG THÀNH</p>
+					<p class="date-writed">Ngày 06/08/2020</p>
+					<div class="img-blog">
+						<img src="images/img (2).jpg" class="img-fluid">
+					</div>
+					<p>Mở đầu tháng 8 sẽ là một bài viết về chuyện học ngoại ngữ, cụ thể là những điều mình học được/ rút ra được từ việc tự học tiếng Hàn sau một năm. Học một ngoại ngữ mới hoá ra là nó như thế này Trước giờ có rất nhiều bạn hỏi mình học […]</p>
+					<a href="blog_detail.html" class="btn-readmore">Read more</a>
+				</div>
+				<div class="blog col-sm-6">
+					<p class="title-blog">NHỮNG ĐIỀU MÌNH RÚT RA ĐƯỢC TỪ VIỆC HỌC MỘT NGOẠI NGỮ MỚI Ở TUỔI TRƯỞNG THÀNH</p>
+					<p class="date-writed">Ngày 06/08/2020</p>
+					<div class="img-blog">
+						<img src="images/img (2).jpg" class="img-fluid">
+					</div>
+					<p>Mở đầu tháng 8 sẽ là một bài viết về chuyện học ngoại ngữ, cụ thể là những điều mình học được/ rút ra được từ việc tự học tiếng Hàn sau một năm. Học một ngoại ngữ mới hoá ra là nó như thế này Trước giờ có rất nhiều bạn hỏi mình học […]</p>
+					<a href="blog_detail.html" class="btn-readmore">Read more</a>
+				</div>
+				<div class="blog col-sm-6">
+					<p class="title-blog">NHỮNG ĐIỀU MÌNH RÚT RA ĐƯỢC TỪ VIỆC HỌC MỘT NGOẠI NGỮ MỚI Ở TUỔI TRƯỞNG THÀNH</p>
+					<p class="date-writed">Ngày 06/08/2020</p>
+					<div class="img-blog">
+						<img src="images/img (3).jpg" class="img-fluid">
+					</div>
+					<p>Mở đầu tháng 8 sẽ là một bài viết về chuyện học ngoại ngữ, cụ thể là những điều mình học được/ rút ra được từ việc tự học tiếng Hàn sau một năm. Học một ngoại ngữ mới hoá ra là nó như thế này Trước giờ có rất nhiều bạn hỏi mình học […]</p>
+					<a href="blog_detail.html" class="btn-readmore">Read more</a>
+				</div>
+			</div>
+			<div class="phanTrang">
+				<!-- <button class="btn-readmore">Older posts</button> -->
+				<ul class="pagination justify-content-center">
+				    <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+				    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+				    <li class="page-item"><a class="page-link" href="#">2</a></li>
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item"><a class="page-link" href="#">4</a></li>
+				    <li class="page-item"><a class="page-link" href="#">5</a></li>
+				    <li class="page-item"><a class="page-link" href="#">Sau</a></li>
 				</ul>
 			</div>
-
-		</aside>
-
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Hung</h1>
-												<p><a class="btn btn-primary btn-learn" href="https://i.topcv.vn/truongvanhung?ref=2156194" target="_blank">View CV</a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_4.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>I'm <br>a Student</h1>
-										</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
-
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<!-- <span class="heading-meta">About Us</span> -->
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p>Full name is <strong>Truong Van Hung</strong>. I'm 21 years old and not have girlfriend. I was born and grew up in Bac Ninh, but I have been learning and working in Ha Noi capital. Currently, I'm a third year student at Hanoi University of Science and Technology, specialized in information technology.</p>
-										<p>My hobbies are playing sports like programing, football, running ... I also love listening to music, watching movies, going out with friends.</p>
-									</div>
-								</div>
-							</div>
-							
-						</div>
+		</div>
+		<div class="col-md-4">
+			<div class="search">
+				<div class="inputSearch">
+					<form class="form-inline">
+					<input type="text" class="form-control" placeholder="Search" >
+				</div>
+				<div class="btnSearch">
+					<button type="button" class="btn btn-danger">Search</button>
+				</div>
+			</div>
+			<div class="about">
+				<div class="btnAbout">
+					<h5>About me</h5>
+				</div>
+				<div class="img-introduce">
+					<img src="images/toi.jpg" class="img-fluid">
+				</div>
+				<div class="liftStyle">
+					<h6><b>LIFESTYLE BLOGGER</b></h6>
+				</div>
+				<div class="title-introduce">
+					<p>Hi. Mình là Hùng. Chào mừng bạn đến với blog của mình. Đây là nơi mình thường xuyên chia sẻ về những câu chuyện nho nhỏ trong đời sống thường ngày của mình. Mình tin rằng, hạnh phúc đến từ những điều giản dị nhất. Hi vọng bạn sẽ tìm thấy được sự bình yên và một chút niềm vui nho nhỏ khi đọc blog của mình. ENJOY!</p>
+				</div>
+				
+			</div>
+			<div class="instagram">
+				<div class="btn-instagram">
+					<h5>Instagram</h5>
+				</div>
+				<div class="row row-img-instagram">
+					<div class="col-sm-4 img-introduce-instagram">
+						<img  src="images/img (5).jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (2).jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (4).jpg" class="img-fluid">
 					</div>
 				</div>
-			</section>
-
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
+				<div class="row row-img-instagram">
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (1).jpg" class="img-fluid">
 					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>These are skills I have learned by myself</p>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="40"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								    <span>40%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SQL</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>C</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Java</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<br><p>LANGUAGE</p>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>ENGLISH</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="30"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:30%">
-								    <span>30%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>JAPANESE</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (2).jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (6).jpg" class="img-fluid">
 					</div>
 				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
+				<div class="row row-img-instagram">
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (5).jpg" class="img-fluid">
 					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Hanoi University of Science and Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Student of Information Technology</p>
-										      			<p style="color: red;">2017-2022</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Yen Phong 1 High School
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Student</p>
-									            <p style="color: red;">2014-2017</p>
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Yen Phu Secondary School
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>Student</p>	
-									            <p style="color: red;">2010-2014</p>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (6).jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-4 img-introduce-instagram">
+						<img src="images/img (4).jpg" class="img-fluid">
 					</div>
 				</div>
-			</section>
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-
-
-					         <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Start learning Front-End</a> <span>7/2019</span></h2>
-					                  <p>Learning HTML, CSS, JS, SQL...</p>
-					               </div>
-					            </div>
-					         </article> -->
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Game HTML5</a> <span>2/2019-4/2019</span></h2>
-					                  <p>Complete the first game called "Alien Shooter"</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Teach scratch programming for children</a> <span>12/2018</span></h2>
-					                  <p>Use SCRATCH programming language</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
+			</div>
+			<div class="categories">
+				<div class="btn-categories">
+					<h5>Categories</h5>
 				</div>
-			</section>
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu">
-								<span>
-									<a href="https://www.hust.edu.vn" target="_blank">STUDENT</a>
-								</span>
-								<span>
-									<a href="https://www.facebook.com/tholaptrinh/" target="_blank">TEACH PROGRAMING</a>
-								</span>
-								<span>
-									<a href="https://www.facebook.com/doitinhnguyen.soict/" target="_blank">VOLUNTEER</a>
-								</span>
-							</p>
-						</div>
-					</div>
-					<div class="row">
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/bk3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="#">Tran Dai Nghia gate</a></h3>
-										<span>Handsome</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i>312432</a></span>
-											<span><a href="#"><i class="icon-heart"></i>1249</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/bk5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Front yard of building C1</a></h3>
-										<span>Perfect</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 5432662</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 4634629</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/v1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Đội SVTN viện CNTT&TT</a></h3>
-										<span>MHX2019</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 5435320</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 45325</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/v4.JPG);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Make color</a></h3>
-										<span>So deep</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 634640</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 4934636</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/day2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Tho Lap Trinh at Bach Khoa</a></h3>
-										<span>Enthusiastic people</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 104230</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 4412349</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/day3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Tho Lap Trinh at Lang Trung</a></h3>
-										<span>Hardworking people</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 4324234</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 657563</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<!-- <div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div> -->
+				<div class="list-categories">
+					<ul>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+						<li>
+							<a href="#">Âm nhạc (2)</a>
+						</li>
+					</ul>
 				</div>
-			</section>
+				
+				
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
 
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">View</span>
-							<h2 class="colorlib-heading">Favorite Photos</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="https://vi.wikipedia.org/wiki/H%E1%BB%93_Ho%C3%A0n_Ki%E1%BA%BFm" class="blog-img" target="_blank"><img src="images/c1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
 
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="https://www.facebook.com/tholaptrinh/" class="blog-img" target="_blank"><img src="images/day1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="https://vi.wikipedia.org/wiki/H%E1%BB%93_T%C3%A2y" class="blog-img" target="_blank"><img src="images/c7.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="https://phapluatxahoi.vn/pho-ho-den-lu-phuong-hoang-van-thu-quan-hoang-mai-65452.html" class="blog-img" target="_blank"><img src="images/c4.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="https://dantri.com.vn/xa-hoi/ngam-hoang-hon-dep-la-tren-ho-tay-20180523062507558.htm" class="blog-img" target="_blank"><img src="images/c5.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="https://vi.wikipedia.org/wiki/H%E1%BB%93_T%C3%A2y" class="blog-img" target="_blank"><img src="images/c6.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-							</div>
-						</div>
-						
-					</div>
-
-					<!-- <div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div> -->
+<footer>
+	<div class="container-fluid footer">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Contact me</h5>
+				<hr class="light">
+				<p>(+84) 383621309</p>
+				<p>truonghungltm@gmail.com</p>
+				<p>Hoang Mai street, Hanoi, Vietnam</p>
+			</div>
+			<div class="col-md-4">				
+				<hr class="light">
+				<h5>Sở thích</h5>
+				<hr class="light">
+				<p>Programing</p>
+				<p>Reading book</p>
+				<p>Photography</p>
+				<p>Game</p>
+			</div>
+			<div class="col-md-4">				
+				<hr class="light">
+				<h5>Follow me</h5>
+				<hr class="light">
+				<div class="mxh">
+					<a href="https://www.facebook.com/hung.tv99" target="_blank">
+						<img class="footer-logo" src="images/facebookColor.png">
+					</a>
+					<a href="https://www.instagram.com/tv_hung_" target="_blank">
+						<img class="footer-logo" src="images/instaColor.png">
+					</a>
+					<a href="https://github.com/TVHung" target="_blank">
+						<img class="footer-logo" src="images/github2.png">
+					</a>
 				</div>
-			</section>
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">truonghungvatvo@gmail.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="https://www.google.com/maps/place/80+Ng%C3%B5+G%E1%BB%91c+%C4%90%E1%BB%81,+Ho%C3%A0ng+V%C4%83n+Th%E1%BB%A5,+Ho%C3%A0ng+Mai,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@20.9929954,105.8523755,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ac12e4ce0ec9:0x3aa3bb654eab9286!8m2!3d20.9929904!4d105.8545642" target="_blank">197 Hoang Mai, Hoang Mai, HN</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">038-362-1309</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
-</html>
-
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; TruongHung</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>	

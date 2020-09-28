@@ -1,0 +1,123 @@
+@import url('https://fonts.google.com/specimen/Dancing+Script');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+
+}
+.container{
+    margin: auto;
+}
+.navbar{
+    background-color: #d9d9d9 !important;
+    opacity: 0.8;
+}
+.navbar li a{
+    color: #000000 !important;
+}
+.navbar li a:hover{
+    color: #008000 !important;
+}
+
+.logopersonal{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logopersonal p{
+    margin: 0px;
+}
+.logopersonal a{
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
+.inputSearch{
+    width: 80%;
+    float: left;
+    padding-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.btnSearch{
+    width: 20%;
+    float: left;
+    padding-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.btnAbout{
+    float: left;
+    margin: 20px 0px 20px 0px;
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 100%;
+}
+.btnAbout h5{
+    margin: 10px 0px 10px 0px;
+}
+.img-introduce, .liftStyle, .title-introduce{
+    margin-bottom: 20px;
+}
+
+.btn-categories{
+    float: left;
+    margin: 20px 0px 20px 0px;
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 100%;
+}
+.btn-categories h5{
+    margin: 10px 0px 10px 0px;
+}
+.list-categories ul{
+    padding: 0px;
+    margin: 0px;
+}
+.list-categories ul li{
+    list-style: none;
+    text-align: left;
+}
+.list-categories ul li a{
+    color: #000000;
+}
+.list-categories ul li a:hover{
+    color: #008000 !important;
+}
+
+.about-me h5{
+    text-align: center;
+}
+.about-me img{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin-bottom: 20px;
+}
+.connect-with-me a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.footer{
+    height: 60%;
+    background-color: #d9d9d9;
+}
+.light{
+    width: 50%;
+}
+
+/*media query*/ 
+/* thay đổi size chữ theo màn hình */
+@media (max-width: 992px){
+   
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 576px){
+    
+}
+
