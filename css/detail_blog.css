@@ -60,6 +60,25 @@ html, body{
 .img-introduce, .liftStyle, .title-introduce{
     margin-bottom: 20px;
 }
+.btn-instagram{
+    margin: 20px 0px 20px 0px;
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+.btn-instagram h5{
+    margin: 0px;
+}
+.img-introduce-instagram{
+    margin: 0px !important;
+    padding: 5px !important;
+
+}
+.row-img-instagram{
+    padding: 0px !important;
+    margin: 0px !important;
+}
 
 .btn-categories{
     float: left;
